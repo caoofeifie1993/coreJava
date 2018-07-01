@@ -21,6 +21,7 @@ public class TestStringCons {
         String four = new String(new char[]{'t', 'f', 'o', 'u', 'r'}, 1, 4);
         System.out.println(four);
 
+
         //String(int[] codePoints, int offset, int count)
         String five = new String(new int[]{102, 105, 118, 101}, 0, 4);
         System.out.println(five);
@@ -66,6 +67,7 @@ public class TestStringCons {
         stringBuilder.append("thirteen");
         String thirteen = new String(stringBuilder);
         System.out.println("thirteen" + thirteen);
+
 
     }
 }
